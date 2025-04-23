@@ -14,7 +14,7 @@ if 'correct_answers' not in st.session_state:
 
 st.title("SAFe Mock Test")
 
-num_questions = 15 # Set the desired number of questions here
+num_questions = 5 # Set the desired number of questions here
 
 # Load questions only once
 if not st.session_state.questions:
